@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    background-color: #000;
+    color: white;
+    padding: 10px 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+.logo{
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    margin: 0 23px;
+}
+ul li{
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+ul > li:hover{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+th, td{
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th{
+    background-color: #f4f4f4;
+}
+
+.container{
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+h1, h2, h3{
+    margin: 23px 0;
+}
+
+.btn{
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.password-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#toggleInputPass {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    color: #2c3e50;
+    user-select: none;
+}
+.btnsm{
+    padding: 5px 10px;
+    background: #e74c3c;
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-btn{
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.view-btn:hover{
+    background: #e0e0e0;
+}
+
+.password-input-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+
+#toggleInputPass{
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555;
+}
+
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+#alert{
+    display: none;
+}
